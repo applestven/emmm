@@ -7,7 +7,7 @@ set -e
 npm run build
 
 # �������ɵ��ļ���
-cd docs/.vuepress/dist
+cd docs/.vuepress/public
 
 # ����Ƿ������Զ�������
 # echo 'www.yourwebsite.com' > CNAME
@@ -17,7 +17,7 @@ git add -A
 git commit -m 'deploy'
 
 # �������Ҫ���� https://USERNAME.github.io
-git push -f git@github.com:babysbreath1029/vuepressBlog.git master:gh-pages
+git push -f git@github.com:applestven/emmm.git master:gh-pages
 
 # ��������� https://USERNAME.github.io/<REPO>  REPO=github�ϵ���Ŀ
 # git push -f git@github.com:USERNAME/<REPO>.git master:gh-pages
