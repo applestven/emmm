@@ -1,4 +1,5 @@
 module.exports = {
+	base:'/emmm/',
 	title: '小七先生',
 	description: '',
 	dest: 'public',
